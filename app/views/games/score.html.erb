@@ -1,0 +1,3 @@
+<h1><%= @score[:message] %></h1>
+<h2><%= @score[:points] %></h2>
+<%= link_to "new game", new_path(params: {points: @score[:points]})  %>
